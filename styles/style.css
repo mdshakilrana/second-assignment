@@ -1,0 +1,336 @@
+/* header*/
+.header{
+    background-color: #f1c5c5;
+    height: 100vh;
+}
+/* nav */
+.nav{
+    color: rgb(240, 231, 231);
+    
+        display: flex;
+        margin: 0 300px;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: space-between;
+    
+    
+ }
+ .nav-logo{
+    color: #0d0e0d;
+ }
+ .nav-menu{
+    color: #12cccc;
+ }
+ .menu{
+    
+    display: flex;
+ }
+ .menu li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    transition: .2s;
+}
+/* banner */
+.banner{
+    color:#131313(238, 14, 152);
+
+        width: 40%;
+        text-align: center;
+        margin: 0px auto;
+        padding: 150px 0;
+
+
+ }
+ .banner-title{
+    font-size: 60px;
+    line-height: 70px;
+
+
+ }
+ .banner-description{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 30px;
+    color:#727272(10, 224, 117);
+ }
+ .button-primary{
+    background-color: #b2e00c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: .4s;
+    width: 180px;
+height: 64px;
+ }
+ .banner-image{
+    position: absolute;
+width: 1440px;
+height: 700px;
+left: 240px;
+ top: 900px;
+
+
+background: url(group-three-modern-architects.jpg);
+border-radius: 8px;
+ }
+ .sub-banner{
+   position: absolute;
+width: 537px;
+height: 304px;
+left: 800px;
+top: 100px;
+ }
+ /* image */
+ .image-title{
+   position: absolute;
+width: 700px;
+height: 700px;
+left: 301px;
+top: 1800px;
+
+ }
+ .image-title{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+ }
+ .motivation{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   
+ }
+ .text-primary{
+   color: #727272;
+ }
+ .sub-text{
+   color: #FF900E;
+ }
+ .about-description{
+   font-weight: 400;
+   font-size: 16px;
+   margin-top: 24px;
+   color: #727272;
+}
+ .subs-banner{
+   position: absolute;
+width: 468px;
+height: 106px;
+left: 266px;
+top: 2700px;
+
+ }
+ /* hr */
+ .horizontal{
+   display: flex;
+   gap: 21px;
+}
+hr{
+   color: #FF900E;
+   width: 5px;
+   height: 106px;
+   background-color: #FF900E;
+}
+/*  */
+.feature-img{
+   position: absolute;
+width:2000px;
+height: 1059px;
+left: 880px;
+top: 50px;
+
+}
+.features-title {
+   font-weight: 700;
+   font-size: 45px;
+   width: 468px;
+   height: 106px;
+   color: #131313;
+}
+.features-heading .about-description {
+   font-weight: 400;
+   font-size: 16px;
+   color: #727272;
+   margin-top: 25px;
+}
+.subs-banner{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+}
+.blogs{
+   display: grid;
+   grid-template-columns: repeat(2,4fr);
+   
+}
+/* 2nd button */
+
+ /* .ten{
+   position: absolute;
+width: 300px;
+height: 150px;
+left: 500px;
+top: 850px;
+background: #FF900E;
+border-radius: 8px;
+ } */
+ .ten-years{
+   position: absolute;
+width: 200px;
+height: 150px;
+left: 750px;
+text-align: center;
+
+color: #f4f5f7;
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+background-color: #FF900E;
+top: 850px;
+ }
+ .ten-years:hover{
+   -webkit-transform: scale(0.8);
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+   transition: .5s;
+}
+/*  */
+.conclusion{
+   position: absolute;
+width: 258px;
+height: 53px;
+left: 0px;
+top: 1050px;
+}
+.conclusion-description{
+   color: #727272;
+   position: absolute;
+width: 542px;
+height: 52px;
+left: 270px;
+top: 2800px; 
+}
+
+
+/* fact */
+ 
+.facts-card{
+   width: 241px;
+   height: 241px;
+   border: 1px solid #FF900E;
+   border-radius: 8px;
+   text-align: center;
+   background-color: #ecf2f3c9;
+   
+}
+.facts-card:hover{
+   background-color: #f33aac;
+   transform: rotate(25deg);
+   transition: 1s;
+}
+.facts-details{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.facts-card img {
+   margin-top: 45px;
+   
+}
+.number {
+   font-weight: 600;
+   font-size: 30px;
+   color: #e917a3;
+   font-family: 'Work Sans';
+   top: 100px;
+}
+.shot-text {
+   font-weight: 600px;
+   font-size: 20px;
+   color:#727272;
+   top: 3822px;
+}
+.fact-contain{
+   position: absolute;
+   top: 4000.08px;
+   left: 300.92px;
+   gap: 100px;
+   display: grid;
+   grid-template-columns: repeat(4,2fr);
+}
+/* last banner */
+.lastbanner{
+   position: absolute;
+   width: 542px;
+height: 129px;
+left: 450px;
+top: 300px;
+}
+.lastbanner-title{
+   color: #131313;
+   font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+text-align: center;
+}
+.lastbanner-description{
+   font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+}
+
+.sponspors{
+   display:grid;
+   grid-template-columns: repeat(5,1fr);
+    gap: 100px;
+   
+ 
+}
+.lastblog{
+   position: absolute;
+width: 153.33px;
+height: 50px;
+left: 400px;
+top: 4600px;
+gap: 20px;
+}
+/* footer */
+.copyright {
+   width: 1440px;
+   height: 100px;
+   height: 68px;
+   border-radius: 8px;
+   text-align: center;
+   background-color: #FFF4E7;
+   margin: 130px;
+   margin-left: 100px;
+}
+
+.copyright-text {
+   text-align: center;
+   padding: 25px;
+   font-weight: 400;
+   font-size: 20px;
+   color: #fec3ff;
+   background: #7c7c7c;
+   border-radius: 10px;
+}
+.footer{
+   position: absolute;
+width: 1440px;
+height: 100px;
+left: 200px;
+top: 4700px;
+
+}
