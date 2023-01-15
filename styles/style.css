@@ -334,3 +334,47 @@ left: 200px;
 top: 4700px;
 
 }
+@media only screen and (max-width:576px){
+.button-primary, .ten-years{
+   font-size: 16px;
+   padding: 20px;
+}
+.nav,
+.header{
+   flex-direction: column;
+   text-align: center;
+}
+.nav-logo,
+.banner,
+.banner-title,
+.banner-description{
+   font-size: 35px;
+   flex-direction: column;
+}
+.menu li{
+   margin-top: 25px;
+}
+.motivation,
+.image-title,
+.sub-banner{
+   
+   text-align: center;
+   flex-direction: column;
+}
+.blogs,
+.conclusion,
+.fact-contain,
+.lastbanner,
+.last{
+   flex-direction: column;
+        align-items: center;
+        gap: 30px;
+}
+.image-title{
+   grid-template-columns: repeat(1, 1fr);
+   width: 100%;
+   flex-direction: column;
+}
+}
+    
+  
